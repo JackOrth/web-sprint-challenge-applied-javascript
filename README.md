@@ -10,11 +10,11 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [ x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [ x] Open the assignment in Canvas and click on the "Set up git" option.
+- [ x] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [ x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [ x] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
@@ -30,11 +30,11 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
-- [ ] Navigate Chrome to `http://localhost:3000`
-- [ ] In a separate terminal, run `npm test` to run tests.
+- [x ] Navigate to the root of the project with your command line.
+- [ x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [ x] Run `npm start` to compile the project and serve it.
+- [ x] Navigate Chrome to `http://localhost:3000`
+- [ x] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
@@ -65,7 +65,12 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+    The DOM stands for Document Object Model and it is a structure that is implemented by browsers to allow JavaScrip to access, modify, and update the structure of an HTML webpage in an organized way. The DOM is the link between an HTML webpage and scripting languages.
 2. What is an event?
+    Events are user interactions on a webpage and browser manipulations that you can program to trigger functionality. An example would be a mouse clicking on a button.
 3. What is an event listener?
+    An event listener is something that allows us to "listen" for events taking place on a web page. To add an event listener you would use the "addEventListener()" method which would listen for an event to occur, like a click, and then execute what ever is needed once that click occurs.  
 4. Why would we convert a NodeList into an Array?
+    The reason you would convert a NodeList into an Array is because a NodeList is an array like object, but you can't use array methods on it. Therefore, in order to use array methods you would need to convert the NodeList into an array. 
 5. What is a component?
+A component is a part or element that you can build and then apply to a larger whole. A benefit of this is you can use components to prevent reusing code.  
